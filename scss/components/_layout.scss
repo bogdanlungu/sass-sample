@@ -1,0 +1,12 @@
+body{
+  background-color: $bg-color;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.wrap{
+  max-width: 1600px;
+  margin: 0 auto;
+}

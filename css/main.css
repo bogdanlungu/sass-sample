@@ -355,3 +355,19 @@ table {
 td,
 th {
   padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-color: #f5f5f5; }
+
+* {
+  box-sizing: border-box; }
+
+.wrap {
+  max-width: 1600px;
+  margin: 0 auto; }
