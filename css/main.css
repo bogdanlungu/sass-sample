@@ -506,3 +506,52 @@ nav.top-nav {
     color: white;
     border: none;
     padding: .75em 0; }
+
+.sidebar {
+  color: white;
+  box-shadow: -4px 0px 10px -2px rgba(0, 0, 0, 0.14); }
+  .sidebar .widget {
+    padding: 1em 1.5em 1.5em;
+    font-size: 80%; }
+    @media (max-width: 60em) {
+      .sidebar .widget {
+        min-height: 150px; } }
+    .sidebar .widget:nth-of-type(1) {
+      background: white;
+      color: #333; }
+      .sidebar .widget:nth-of-type(1) a {
+        color: #333;
+        border-bottom: 1px solid #eaeaea; }
+    .sidebar .widget:nth-of-type(2) {
+      background: #DEB168; }
+    .sidebar .widget:nth-of-type(3) {
+      background: #272422; }
+    .sidebar .widget:nth-of-type(4) {
+      background: #523339; }
+    .sidebar .widget h3 i {
+      margin-right: 1em; }
+    .sidebar .widget ul {
+      list-style: square inside;
+      magin: 0;
+      padding: 0; }
+      .sidebar .widget ul li:last-child a {
+        border-bottom: none; }
+      .sidebar .widget ul a {
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 1.25em 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.45); }
+    .sidebar .widget form input, .sidebar .widget form textarea {
+      width: 100%;
+      padding: 1em .75em;
+      margin-bottom: 1em;
+      border-radius: 3px;
+      border: none; }
+      .sidebar .widget form input[type="submit"], .sidebar .widget form textarea[type="submit"] {
+        background: #231618;
+        border: none;
+        padding: 1em 0;
+        color: white; }
+        .sidebar .widget form input[type="submit"]:hover, .sidebar .widget form textarea[type="submit"]:hover {
+          background: #130c0d; }
