@@ -555,3 +555,54 @@ nav.top-nav {
         color: white; }
         .sidebar .widget form input[type="submit"]:hover, .sidebar .widget form textarea[type="submit"]:hover {
           background: #130c0d; }
+
+.bottom-widgets {
+  width: 100%;
+  margin-top: 1.5em; }
+  .bottom-widgets::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (max-width: 42em) {
+    .bottom-widgets {
+      padding: 0 10px; } }
+  .bottom-widgets .widget {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .bottom-widgets .widget:last-child {
+      margin-right: 0; }
+    @media (max-width: 42em) {
+      .bottom-widgets .widget {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .bottom-widgets .widget:last-child {
+          margin-right: 0; } }
+    .bottom-widgets .widget h3 {
+      background: #272422;
+      padding: 1.0em .75em;
+      color: white; }
+    .bottom-widgets .widget ul {
+      font-size: 80%;
+      list-style: square;
+      margin: 0;
+      padding: 0 1em; }
+      .bottom-widgets .widget ul li:last-child a {
+        border-bottom: none; }
+      .bottom-widgets .widget ul li a {
+        color: #333;
+        display: block;
+        text-decoration: none;
+        padding: 1em 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.foot {
+  background: #000;
+  color: #555;
+  padding: 1em 0 2em; }
+  .foot p {
+    font-size: 80%;
+    text-align: center; }
